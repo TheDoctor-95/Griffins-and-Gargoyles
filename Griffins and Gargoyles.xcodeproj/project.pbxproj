@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB001B8E219C68A000A4A7FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001B8D219C68A000A4A7FE /* AppDelegate.swift */; };
+		DB001B90219C68A000A4A7FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001B8F219C68A000A4A7FE /* ViewController.swift */; };
+		DB001B93219C68A000A4A7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB001B91219C68A000A4A7FE /* Main.storyboard */; };
+		DB001B95219C68A300A4A7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB001B94219C68A300A4A7FE /* Assets.xcassets */; };
+		DB001B98219C68A300A4A7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB001B96219C68A300A4A7FE /* LaunchScreen.storyboard */; };
+		DB001BA3219C68A300A4A7FE /* Griffins_and_GargoylesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BA2219C68A300A4A7FE /* Griffins_and_GargoylesTests.swift */; };
+		DB001BAE219C68A300A4A7FE /* Griffins_and_GargoylesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BAD219C68A300A4A7FE /* Griffins_and_GargoylesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB001B9F219C68A300A4A7FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB001B82219C68A000A4A7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB001B89219C68A000A4A7FE;
+			remoteInfo = "Griffins and Gargoyles";
+		};
+		DB001BAA219C68A300A4A7FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB001B82219C68A000A4A7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB001B89219C68A000A4A7FE;
+			remoteInfo = "Griffins and Gargoyles";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB001B8A219C68A000A4A7FE /* Griffins and Gargoyles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Griffins and Gargoyles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB001B8D219C68A000A4A7FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB001B8F219C68A000A4A7FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB001B92219C68A000A4A7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB001B94219C68A300A4A7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB001B97219C68A300A4A7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB001B99219C68A300A4A7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB001B9E219C68A300A4A7FE /* Griffins and GargoylesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Griffins and GargoylesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB001BA2219C68A300A4A7FE /* Griffins_and_GargoylesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Griffins_and_GargoylesTests.swift; sourceTree = "<group>"; };
+		DB001BA4219C68A300A4A7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB001BA9219C68A300A4A7FE /* Griffins and GargoylesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Griffins and GargoylesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB001BAD219C68A300A4A7FE /* Griffins_and_GargoylesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Griffins_and_GargoylesUITests.swift; sourceTree = "<group>"; };
+		DB001BAF219C68A300A4A7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB001B87219C68A000A4A7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB001B9B219C68A300A4A7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB001BA6219C68A300A4A7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB001B81219C68A000A4A7FE = {
+			isa = PBXGroup;
+			children = (
+				DB001B8C219C68A000A4A7FE /* Griffins and Gargoyles */,
+				DB001BA1219C68A300A4A7FE /* Griffins and GargoylesTests */,
+				DB001BAC219C68A300A4A7FE /* Griffins and GargoylesUITests */,
+				DB001B8B219C68A000A4A7FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB001B8B219C68A000A4A7FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB001B8A219C68A000A4A7FE /* Griffins and Gargoyles.app */,
+				DB001B9E219C68A300A4A7FE /* Griffins and GargoylesTests.xctest */,
+				DB001BA9219C68A300A4A7FE /* Griffins and GargoylesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB001B8C219C68A000A4A7FE /* Griffins and Gargoyles */ = {
+			isa = PBXGroup;
+			children = (
+				DB001B8D219C68A000A4A7FE /* AppDelegate.swift */,
+				DB001B8F219C68A000A4A7FE /* ViewController.swift */,
+				DB001B91219C68A000A4A7FE /* Main.storyboard */,
+				DB001B94219C68A300A4A7FE /* Assets.xcassets */,
+				DB001B96219C68A300A4A7FE /* LaunchScreen.storyboard */,
+				DB001B99219C68A300A4A7FE /* Info.plist */,
+			);
+			path = "Griffins and Gargoyles";
+			sourceTree = "<group>";
+		};
+		DB001BA1219C68A300A4A7FE /* Griffins and GargoylesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB001BA2219C68A300A4A7FE /* Griffins_and_GargoylesTests.swift */,
+				DB001BA4219C68A300A4A7FE /* Info.plist */,
+			);
+			path = "Griffins and GargoylesTests";
+			sourceTree = "<group>";
+		};
+		DB001BAC219C68A300A4A7FE /* Griffins and GargoylesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB001BAD219C68A300A4A7FE /* Griffins_and_GargoylesUITests.swift */,
+				DB001BAF219C68A300A4A7FE /* Info.plist */,
+			);
+			path = "Griffins and GargoylesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB001B89219C68A000A4A7FE /* Griffins and Gargoyles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB001BB2219C68A300A4A7FE /* Build configuration list for PBXNativeTarget "Griffins and Gargoyles" */;
+			buildPhases = (
+				DB001B86219C68A000A4A7FE /* Sources */,
+				DB001B87219C68A000A4A7FE /* Frameworks */,
+				DB001B88219C68A000A4A7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Griffins and Gargoyles";
+			productName = "Griffins and Gargoyles";
+			productReference = DB001B8A219C68A000A4A7FE /* Griffins and Gargoyles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB001B9D219C68A300A4A7FE /* Griffins and GargoylesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB001BB5219C68A300A4A7FE /* Build configuration list for PBXNativeTarget "Griffins and GargoylesTests" */;
+			buildPhases = (
+				DB001B9A219C68A300A4A7FE /* Sources */,
+				DB001B9B219C68A300A4A7FE /* Frameworks */,
+				DB001B9C219C68A300A4A7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB001BA0219C68A300A4A7FE /* PBXTargetDependency */,
+			);
+			name = "Griffins and GargoylesTests";
+			productName = "Griffins and GargoylesTests";
+			productReference = DB001B9E219C68A300A4A7FE /* Griffins and GargoylesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB001BA8219C68A300A4A7FE /* Griffins and GargoylesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB001BB8219C68A300A4A7FE /* Build configuration list for PBXNativeTarget "Griffins and GargoylesUITests" */;
+			buildPhases = (
+				DB001BA5219C68A300A4A7FE /* Sources */,
+				DB001BA6219C68A300A4A7FE /* Frameworks */,
+				DB001BA7219C68A300A4A7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB001BAB219C68A300A4A7FE /* PBXTargetDependency */,
+			);
+			name = "Griffins and GargoylesUITests";
+			productName = "Griffins and GargoylesUITests";
+			productReference = DB001BA9219C68A300A4A7FE /* Griffins and GargoylesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB001B82219C68A000A4A7FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Pau Duran";
+				TargetAttributes = {
+					DB001B89219C68A000A4A7FE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DB001B9D219C68A300A4A7FE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DB001B89219C68A000A4A7FE;
+					};
+					DB001BA8219C68A300A4A7FE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DB001B89219C68A000A4A7FE;
+					};
+				};
+			};
+			buildConfigurationList = DB001B85219C68A000A4A7FE /* Build configuration list for PBXProject "Griffins and Gargoyles" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB001B81219C68A000A4A7FE;
+			productRefGroup = DB001B8B219C68A000A4A7FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB001B89219C68A000A4A7FE /* Griffins and Gargoyles */,
+				DB001B9D219C68A300A4A7FE /* Griffins and GargoylesTests */,
+				DB001BA8219C68A300A4A7FE /* Griffins and GargoylesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB001B88219C68A000A4A7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB001B98219C68A300A4A7FE /* LaunchScreen.storyboard in Resources */,
+				DB001B95219C68A300A4A7FE /* Assets.xcassets in Resources */,
+				DB001B93219C68A000A4A7FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB001B9C219C68A300A4A7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB001BA7219C68A300A4A7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB001B86219C68A000A4A7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB001B90219C68A000A4A7FE /* ViewController.swift in Sources */,
+				DB001B8E219C68A000A4A7FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB001B9A219C68A300A4A7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB001BA3219C68A300A4A7FE /* Griffins_and_GargoylesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB001BA5219C68A300A4A7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB001BAE219C68A300A4A7FE /* Griffins_and_GargoylesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB001BA0219C68A300A4A7FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB001B89219C68A000A4A7FE /* Griffins and Gargoyles */;
+			targetProxy = DB001B9F219C68A300A4A7FE /* PBXContainerItemProxy */;
+		};
+		DB001BAB219C68A300A4A7FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB001B89219C68A000A4A7FE /* Griffins and Gargoyles */;
+			targetProxy = DB001BAA219C68A300A4A7FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB001B91219C68A000A4A7FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB001B92219C68A000A4A7FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB001B96219C68A300A4A7FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB001B97219C68A300A4A7FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB001BB0219C68A300A4A7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB001BB1219C68A300A4A7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB001BB3219C68A300A4A7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Griffins and Gargoyles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "doctor.Griffins-and-Gargoyles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB001BB4219C68A300A4A7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Griffins and Gargoyles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "doctor.Griffins-and-Gargoyles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB001BB6219C68A300A4A7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Griffins and GargoylesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "doctor.Griffins-and-GargoylesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Griffins and Gargoyles.app/Griffins and Gargoyles";
+			};
+			name = Debug;
+		};
+		DB001BB7219C68A300A4A7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Griffins and GargoylesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "doctor.Griffins-and-GargoylesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Griffins and Gargoyles.app/Griffins and Gargoyles";
+			};
+			name = Release;
+		};
+		DB001BB9219C68A300A4A7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Griffins and GargoylesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "doctor.Griffins-and-GargoylesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Griffins and Gargoyles";
+			};
+			name = Debug;
+		};
+		DB001BBA219C68A300A4A7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Griffins and GargoylesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "doctor.Griffins-and-GargoylesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Griffins and Gargoyles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB001B85219C68A000A4A7FE /* Build configuration list for PBXProject "Griffins and Gargoyles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB001BB0219C68A300A4A7FE /* Debug */,
+				DB001BB1219C68A300A4A7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB001BB2219C68A300A4A7FE /* Build configuration list for PBXNativeTarget "Griffins and Gargoyles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB001BB3219C68A300A4A7FE /* Debug */,
+				DB001BB4219C68A300A4A7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB001BB5219C68A300A4A7FE /* Build configuration list for PBXNativeTarget "Griffins and GargoylesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB001BB6219C68A300A4A7FE /* Debug */,
+				DB001BB7219C68A300A4A7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB001BB8219C68A300A4A7FE /* Build configuration list for PBXNativeTarget "Griffins and GargoylesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB001BB9219C68A300A4A7FE /* Debug */,
+				DB001BBA219C68A300A4A7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB001B82219C68A000A4A7FE /* Project object */;
+}
