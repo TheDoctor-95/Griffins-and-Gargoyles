@@ -14,6 +14,17 @@
 		DB001B98219C68A300A4A7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB001B96219C68A300A4A7FE /* LaunchScreen.storyboard */; };
 		DB001BA3219C68A300A4A7FE /* Griffins_and_GargoylesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BA2219C68A300A4A7FE /* Griffins_and_GargoylesTests.swift */; };
 		DB001BAE219C68A300A4A7FE /* Griffins_and_GargoylesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BAD219C68A300A4A7FE /* Griffins_and_GargoylesUITests.swift */; };
+		DB001BBC219C6A5100A4A7FE /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BBB219C6A5100A4A7FE /* Hero.swift */; };
+		DB001BBE219C6A6200A4A7FE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BBD219C6A6200A4A7FE /* Item.swift */; };
+		DB001BC4219C6A9D00A4A7FE /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BC3219C6A9D00A4A7FE /* Monster.swift */; };
+		DB001BC6219C6AAD00A4A7FE /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BC5219C6AAD00A4A7FE /* Dice.swift */; };
+		DB001BC8219C6AD000A4A7FE /* Equip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BC7219C6AD000A4A7FE /* Equip.swift */; };
+		DB15585921ADBC4600E59DD5 /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15585821ADBC4600E59DD5 /* ShopController.swift */; };
+		DB1B2D5521A5AA5A004A7509 /* InventoryControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1B2D5421A5AA5A004A7509 /* InventoryControler.swift */; };
+		DB4D7F7B21B7051C00B30657 /* MonsterSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4D7F7A21B7051C00B30657 /* MonsterSelect.swift */; };
+		DB5887ED21A491FA00FC62E4 /* MenuControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5887EC21A491FA00FC62E4 /* MenuControler.swift */; };
+		DBDCAF8021B8202C0034D9D5 /* FightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDCAF7F21B8202C0034D9D5 /* FightController.swift */; };
+		DBF7612321C1524600F30E05 /* VictoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF7612221C1524600F30E05 /* VictoryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		DB001BA9219C68A300A4A7FE /* Griffins and GargoylesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Griffins and GargoylesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB001BAD219C68A300A4A7FE /* Griffins_and_GargoylesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Griffins_and_GargoylesUITests.swift; sourceTree = "<group>"; };
 		DB001BAF219C68A300A4A7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB001BBB219C6A5100A4A7FE /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		DB001BBD219C6A6200A4A7FE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DB001BC3219C6A9D00A4A7FE /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		DB001BC5219C6AAD00A4A7FE /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		DB001BC7219C6AD000A4A7FE /* Equip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equip.swift; sourceTree = "<group>"; };
+		DB15585821ADBC4600E59DD5 /* ShopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
+		DB1B2D5421A5AA5A004A7509 /* InventoryControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryControler.swift; sourceTree = "<group>"; };
+		DB4D7F7A21B7051C00B30657 /* MonsterSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterSelect.swift; sourceTree = "<group>"; };
+		DB5887EC21A491FA00FC62E4 /* MenuControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuControler.swift; sourceTree = "<group>"; };
+		DBDCAF7F21B8202C0034D9D5 /* FightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightController.swift; sourceTree = "<group>"; };
+		DBF7612221C1524600F30E05 /* VictoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,7 @@
 				DB001BA1219C68A300A4A7FE /* Griffins and GargoylesTests */,
 				DB001BAC219C68A300A4A7FE /* Griffins and GargoylesUITests */,
 				DB001B8B219C68A000A4A7FE /* Products */,
+				DB001BAD219C68A300A4A7FE /* Griffins_and_GargoylesUITests.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +121,18 @@
 			isa = PBXGroup;
 			children = (
 				DB001B8D219C68A000A4A7FE /* AppDelegate.swift */,
+				DB4D7F7A21B7051C00B30657 /* MonsterSelect.swift */,
 				DB001B8F219C68A000A4A7FE /* ViewController.swift */,
+				DB5887EC21A491FA00FC62E4 /* MenuControler.swift */,
+				DB1B2D5421A5AA5A004A7509 /* InventoryControler.swift */,
+				DB15585821ADBC4600E59DD5 /* ShopController.swift */,
 				DB001B91219C68A000A4A7FE /* Main.storyboard */,
+				DBDCAF7F21B8202C0034D9D5 /* FightController.swift */,
 				DB001B94219C68A300A4A7FE /* Assets.xcassets */,
 				DB001B96219C68A300A4A7FE /* LaunchScreen.storyboard */,
 				DB001B99219C68A300A4A7FE /* Info.plist */,
+				DB001BC2219C6A8A00A4A7FE /* Modelo */,
+				DBF7612221C1524600F30E05 /* VictoryController.swift */,
 			);
 			path = "Griffins and Gargoyles";
 			sourceTree = "<group>";
@@ -119,10 +149,21 @@
 		DB001BAC219C68A300A4A7FE /* Griffins and GargoylesUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DB001BAD219C68A300A4A7FE /* Griffins_and_GargoylesUITests.swift */,
 				DB001BAF219C68A300A4A7FE /* Info.plist */,
 			);
 			path = "Griffins and GargoylesUITests";
+			sourceTree = "<group>";
+		};
+		DB001BC2219C6A8A00A4A7FE /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				DB001BBB219C6A5100A4A7FE /* Hero.swift */,
+				DB001BBD219C6A6200A4A7FE /* Item.swift */,
+				DB001BC3219C6A9D00A4A7FE /* Monster.swift */,
+				DB001BC5219C6AAD00A4A7FE /* Dice.swift */,
+				DB001BC7219C6AD000A4A7FE /* Equip.swift */,
+			);
+			path = Modelo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +297,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB001BC4219C6A9D00A4A7FE /* Monster.swift in Sources */,
+				DB001BBE219C6A6200A4A7FE /* Item.swift in Sources */,
 				DB001B90219C68A000A4A7FE /* ViewController.swift in Sources */,
+				DB5887ED21A491FA00FC62E4 /* MenuControler.swift in Sources */,
+				DB4D7F7B21B7051C00B30657 /* MonsterSelect.swift in Sources */,
+				DB001BC8219C6AD000A4A7FE /* Equip.swift in Sources */,
+				DB1B2D5521A5AA5A004A7509 /* InventoryControler.swift in Sources */,
 				DB001B8E219C68A000A4A7FE /* AppDelegate.swift in Sources */,
+				DB001BC6219C6AAD00A4A7FE /* Dice.swift in Sources */,
+				DB001BBC219C6A5100A4A7FE /* Hero.swift in Sources */,
+				DBF7612321C1524600F30E05 /* VictoryController.swift in Sources */,
+				DBDCAF8021B8202C0034D9D5 /* FightController.swift in Sources */,
+				DB15585921ADBC4600E59DD5 /* ShopController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
