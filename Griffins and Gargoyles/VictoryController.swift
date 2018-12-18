@@ -25,6 +25,7 @@ class VictoryController: UIViewController {
         victoryMessage.text="YOU \(battleState)"
         
         progressBar.progress = Float(hero.exp)/(Float(hero.lvl)*10)
+        
         btnDone.isHidden = true
         timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
         
@@ -35,17 +36,30 @@ class VictoryController: UIViewController {
     @objc func updateTimer() {
         timer.invalidate()
         if(battleState == "win"){
+            //progressBar.progress = 1.0
             if(hero.gainExp(exp: monster.exp)){
-                progressBar.setProgress(1, animated: true)
-                progressBar.setProgress(0, animated: false)
+                setProgress(valor: 1)
+                sleep(3)
+                
             }
             
             
             
-        }
+        }else{
             
-        progressBar.setProgress(Float(hero.exp)/(Float(hero.lvl)*10), animated: true)
-            btnDone.isHidden = false
+        }
+        
+        setProgress(valor: Float(hero.exp)/(Float(hero.lvl)*10))
+        btnDone.isHidden = false
         
     }
+    
+    func setProgress(valor: Float){
+        progressBar.setProgress(valor, animated: true)
+    }
+    
+
+    
+    
+    
 }

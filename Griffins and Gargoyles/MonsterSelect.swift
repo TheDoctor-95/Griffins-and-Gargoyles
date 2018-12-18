@@ -11,7 +11,7 @@ import Foundation
 import UIKit
 
 var monsters = [Monster]()
-var monterRow: Int = 0;
+var monterRow: Int = 0
 
 class MonsterSelect: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
@@ -24,6 +24,8 @@ class MonsterSelect: UIViewController, UIPickerViewDelegate, UIPickerViewDataSou
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        monterRow = 0
         
         if(monsters.count==0){
             
