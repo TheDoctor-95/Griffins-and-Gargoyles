@@ -231,7 +231,7 @@ class fightController: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
             
             
             let logicVc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "victoryScreen")
-            sleep(3)
+            
             self.present(logicVc, animated: true, completion: nil)
             
         }

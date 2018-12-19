@@ -13,6 +13,9 @@ class VictoryController: UIViewController {
     
     
     
+    @IBOutlet weak var goldMessage: UILabel!
+    @IBOutlet weak var estatsMessge: UILabel!
+    @IBOutlet weak var lvlUp: UILabel!
     @IBOutlet weak var btnDone: UIButton!
     @IBOutlet weak var victoryMessage: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
@@ -27,7 +30,7 @@ class VictoryController: UIViewController {
         progressBar.progress = Float(hero.exp)/(Float(hero.lvl)*10)
         
         btnDone.isHidden = true
-        timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
         
         
     }
@@ -39,17 +42,26 @@ class VictoryController: UIViewController {
             //progressBar.progress = 1.0
             if(hero.gainExp(exp: monster.exp)){
                 setProgress(valor: 1)
-                sleep(3)
-                
+                lvlUp.isHidden = false;
+            }else{
+                setProgress(valor: Float(hero.exp)/(Float(hero.lvl)*10))
             }
+            
+            hero.money += monster.money
+            
+            goldMessage.text = "YOU WIN \(monster.money) GOLD"
+            
+            
+            monsters[monterRow].timesDefeat += 1
+            estatsMessge.text = "LVL: \(hero.lvl) GOLD \(hero.money)"
             
             
             
         }else{
-            
+            //hero.loseExp
         }
         
-        setProgress(valor: Float(hero.exp)/(Float(hero.lvl)*10))
+        
         btnDone.isHidden = false
         
     }

@@ -899,17 +899,17 @@
                                 <rect key="frame" x="19" y="47" width="336" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SELECT A MONSTER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMd-L1-gN7">
-                                        <rect key="frame" x="-3" y="95" width="343" height="35"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="5Xw-Bj-xLQ">
+                                        <rect key="frame" x="-7" y="0.0" width="343" height="97"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SELECT A MONSTER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5r-eN-Xt2">
+                                        <rect key="frame" x="-7" y="95" width="343" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                         <color key="textColor" red="0.78602655440000002" green="0.56366910400000003" blue="0.30297896619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="5Xw-Bj-xLQ">
-                                        <rect key="frame" x="-7" y="0.0" width="343" height="97"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                 </subviews>
                             </view>
                             <progressView opaque="NO" contentMode="scaleAspectFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" trackImage="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ely-cy-gNY">
@@ -932,14 +932,38 @@
                                     <segue destination="786-mQ-2va" kind="show" id="r9X-Qs-PbM"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRK-N7-Ewj">
+                                <rect key="frame" x="39" y="317" width="297" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="0.78602655440000002" green="0.56366910400000003" blue="0.30297896619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lvl up!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSJ-t0-XhX">
+                                <rect key="frame" x="288" y="208" width="74" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.78602655440000002" green="0.56366910400000003" blue="0.30297896619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjV-jq-2Jg">
+                                <rect key="frame" x="39" y="420" width="297" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="0.78602655440000002" green="0.56366910400000003" blue="0.30297896619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.31712354440000001" green="0.22741311110000001" blue="0.1222372999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="dT2-on-IJN"/>
                     </view>
                     <connections>
                         <outlet property="btnDone" destination="lhN-J4-6eX" id="hhB-1o-hid"/>
+                        <outlet property="estatsMessge" destination="tjV-jq-2Jg" id="IpC-Qs-rFX"/>
+                        <outlet property="goldMessage" destination="vRK-N7-Ewj" id="ICX-Zg-xgt"/>
+                        <outlet property="lvlUp" destination="DSJ-t0-XhX" id="6WD-vL-H7X"/>
                         <outlet property="progressBar" destination="Ely-cy-gNY" id="6yp-Tq-RHV"/>
-                        <outlet property="victoryMessage" destination="UMd-L1-gN7" id="m4o-4A-le0"/>
+                        <outlet property="victoryMessage" destination="z5r-eN-Xt2" id="hyq-ta-wro"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rdg-vH-eC9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -963,6 +987,6 @@
         <image name="preset_backpack" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="r9X-Qs-PbM"/>
+        <segue reference="GEP-a4-Phm"/>
     </inferredMetricsTieBreakers>
 </document>

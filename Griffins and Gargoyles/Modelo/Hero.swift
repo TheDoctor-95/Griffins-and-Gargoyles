@@ -90,8 +90,9 @@ class Hero {
     func gainExp(exp: Int) -> Bool {
         self.exp += exp
         
-        if(self.exp>(self.lvl*10)){
+        if(self.exp>=(self.lvl*10)){
             self.exp -= self.lvl*10
+            self.lvl += 1
             return true
         }
         return false
