@@ -17,7 +17,6 @@
 		DB001BBC219C6A5100A4A7FE /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BBB219C6A5100A4A7FE /* Hero.swift */; };
 		DB001BBE219C6A6200A4A7FE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BBD219C6A6200A4A7FE /* Item.swift */; };
 		DB001BC4219C6A9D00A4A7FE /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BC3219C6A9D00A4A7FE /* Monster.swift */; };
-		DB001BC6219C6AAD00A4A7FE /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BC5219C6AAD00A4A7FE /* Dice.swift */; };
 		DB001BC8219C6AD000A4A7FE /* Equip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB001BC7219C6AD000A4A7FE /* Equip.swift */; };
 		DB15585921ADBC4600E59DD5 /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15585821ADBC4600E59DD5 /* ShopController.swift */; };
 		DB1B2D5521A5AA5A004A7509 /* InventoryControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1B2D5421A5AA5A004A7509 /* InventoryControler.swift */; };
@@ -61,7 +60,6 @@
 		DB001BBB219C6A5100A4A7FE /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		DB001BBD219C6A6200A4A7FE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		DB001BC3219C6A9D00A4A7FE /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
-		DB001BC5219C6AAD00A4A7FE /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
 		DB001BC7219C6AD000A4A7FE /* Equip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equip.swift; sourceTree = "<group>"; };
 		DB15585821ADBC4600E59DD5 /* ShopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
 		DB1B2D5421A5AA5A004A7509 /* InventoryControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryControler.swift; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 				DB001BBB219C6A5100A4A7FE /* Hero.swift */,
 				DB001BBD219C6A6200A4A7FE /* Item.swift */,
 				DB001BC3219C6A9D00A4A7FE /* Monster.swift */,
-				DB001BC5219C6AAD00A4A7FE /* Dice.swift */,
 				DB001BC7219C6AD000A4A7FE /* Equip.swift */,
 			);
 			path = Modelo;
@@ -305,7 +302,6 @@
 				DB001BC8219C6AD000A4A7FE /* Equip.swift in Sources */,
 				DB1B2D5521A5AA5A004A7509 /* InventoryControler.swift in Sources */,
 				DB001B8E219C68A000A4A7FE /* AppDelegate.swift in Sources */,
-				DB001BC6219C6AAD00A4A7FE /* Dice.swift in Sources */,
 				DB001BBC219C6A5100A4A7FE /* Hero.swift in Sources */,
 				DBF7612321C1524600F30E05 /* VictoryController.swift in Sources */,
 				DBDCAF8021B8202C0034D9D5 /* FightController.swift in Sources */,

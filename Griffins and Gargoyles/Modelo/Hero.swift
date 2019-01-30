@@ -99,4 +99,10 @@ class Hero {
         
     }
     
+    func loseExp(exp: Int) {
+        self.exp -= exp
+        
+        if(self.exp<0) { self.exp = 0}
+    }
+    
 }

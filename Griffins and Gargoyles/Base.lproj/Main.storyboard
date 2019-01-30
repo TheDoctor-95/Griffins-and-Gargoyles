@@ -628,6 +628,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.31712354440000001" green="0.22741311110000001" blue="0.1222372999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.31712354440000001" green="0.22741311110000001" blue="0.1222372999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <accessibility key="accessibilityConfiguration" identifier="inventory"/>
                         <viewLayoutGuide key="safeArea" id="Bv3-0x-UY1"/>
                     </view>
                     <connections>
@@ -987,6 +988,6 @@
         <image name="preset_backpack" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GEP-a4-Phm"/>
+        <segue reference="ZuY-Mt-lUk"/>
     </inferredMetricsTieBreakers>
 </document>

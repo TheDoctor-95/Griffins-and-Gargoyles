@@ -142,11 +142,29 @@ class ShopController : UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     }
     
     @IBAction func buy(_ sender: Any) {
+        let alert: UIAlertController
+        
         if(hero.money >= itemList[selected].price) {
             hero.equip.addItem(item: itemList[selected])
             hero.money -= itemList[selected].price
+            alert = UIAlertController(title: "ITEM BOUGHT", message: "You have bought this item.", preferredStyle: .alert)
+            
+            alert.addAction(UIAlertAction(title: "Keep Buying", style: .default, handler: nil))
+            ∂
+            
+        }else{
+            alert = UIAlertController(title: "NOT ENOUGHT MONEY", message: "You don't have enought money to buy this item.", preferredStyle: .alert)
+            
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            
+            
+            
         }
+        
+        self.present(alert, animated: true)
         goldLabel.text = String(hero.money)
     }
+    
+    
     
 }

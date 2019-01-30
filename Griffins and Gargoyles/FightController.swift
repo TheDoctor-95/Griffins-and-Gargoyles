@@ -37,6 +37,8 @@ class fightController: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     @IBOutlet weak var heroL4: UIImageView!
     @IBOutlet weak var heroL5: UIImageView!
     
+    var timer = Timer()
+    
     @IBOutlet weak var atc: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -229,10 +231,9 @@ class fightController: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
                 battleState = "win"
             }
             
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
             
-            let logicVc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "victoryScreen")
             
-            self.present(logicVc, animated: true, completion: nil)
             
         }
         
@@ -241,6 +242,14 @@ class fightController: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         
         
         
+    }
+    
+    @objc func updateTimer() {
+        timer.invalidate()
+        
+        let logicVc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "victoryScreen")
+        
+        self.present(logicVc, animated: true, completion: nil)
     }
     
     

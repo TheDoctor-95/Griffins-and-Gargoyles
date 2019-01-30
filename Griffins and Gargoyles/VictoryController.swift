@@ -58,7 +58,12 @@ class VictoryController: UIViewController {
             
             
         }else{
-            //hero.loseExp
+            hero.loseExp(exp: monster.exp)
+            setProgress(valor: Float(hero.exp)/(Float(hero.lvl)*10))
+            monsters[monterRow].timesDefeat -= 1
+            if(monsters[monterRow].timesDefeat<0) { monsters[monterRow].timesDefeat = 0}
+            
+            estatsMessge.text = "LVL: \(hero.lvl) GOLD \(hero.money)"
         }
         
         
